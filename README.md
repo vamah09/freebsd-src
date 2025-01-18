@@ -1,23 +1,20 @@
 FreeBSD Source:
 ---------------
-This is the top level of the FreeBSD source directory.
+这是 FreeBSD 源码目录的最上层。
 
-FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms.
-A large community has continually developed it for more than thirty years.
-Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
+FreeBSD是一个操作系统，用于为现代服务器、桌面和嵌入式平台提供支持。
 
-For copyright information, please see [the file COPYRIGHT](COPYRIGHT) in this directory.
-Additional copyright information also exists for some sources in this tree - please see the specific source directories for more information.
+有关版权信息，请参阅本目录中的[the file COPYRIGHT](COPYRIGHT)。
 
-The Makefile in this directory supports a number of targets for building components (or all) of the FreeBSD source tree.
-See build(7), config(8), [FreeBSD handbook on building userland](https://docs.freebsd.org/en/books/handbook/cutting-edge/#makeworld), and [Handbook for kernels](https://docs.freebsd.org/en/books/handbook/kernelconfig/) for more information, including setting make(1) variables.
+此目录中的 Makefile 支持许多用于构建 FreeBSD 源代码树组件（或所有）的目标。
+参阅 build（7）， config（8）， [FreeBSD 用户空间构建手册]（https://docs.freebsd.org/en/books/handbook/cutting-edge/#makeworld） 和 [内核手册]（https://docs.freebsd.org/en/books/handbook/kernelconfig/） 以获取更多信息，包括设置 make（1） 变量。
 
-For information on the CPU architectures and platforms supported by FreeBSD, see the [FreeBSD
-website's Platforms page](https://www.freebsd.org/platforms/).
+有关 FreeBSD 支持的 CPU 架构和平台的信息，请参阅 [FreeBSD
+网站的平台页面]（https://www.freebsd.org/platforms/）。
 
-For official FreeBSD bootable images, see the [release page](https://download.freebsd.org/ftp/releases/ISO-IMAGES/).
+对于官方的 FreeBSD 可启动映像，请参见 [release page]（https://download.freebsd.org/ftp/releases/ISO-IMAGES/）。
 
-Source Roadmap:
+源码路线图：
 ---------------
 | Directory | Description |
 | --------- | ----------- |
@@ -44,4 +41,4 @@ Source Roadmap:
 | usr.bin | User commands. |
 | usr.sbin | System administration commands. |
 
-For information on synchronizing your source tree with one or more of the FreeBSD Project's development branches, please see [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/cutting-edge/#current-stable).
+关于将您的源代码树与 FreeBSD 项目的一个或多个开发分支同步的信息， 请参考 [FreeBSD 手册]（https://docs.freebsd.org/en/books/handbook/cutting-edge/#current-stable）。
