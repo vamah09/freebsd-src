@@ -1,18 +1,16 @@
 FreeBSD Source:
 ---------------
-这是 FreeBSD 源码目录的最上层。
-
 FreeBSD是一个操作系统，用于为现代服务器、桌面和嵌入式平台提供支持。
 
 有关版权信息，请参阅本目录中的[the file COPYRIGHT](COPYRIGHT)。
 
 此目录中的 Makefile 支持许多用于构建 FreeBSD 源代码树组件（或所有）的目标。
-参阅 build（7）， config（8）， [FreeBSD 用户空间构建手册]（https://docs.freebsd.org/en/books/handbook/cutting-edge/#makeworld） 和 [内核手册]（https://docs.freebsd.org/en/books/handbook/kernelconfig/） 以获取更多信息，包括设置 make（1） 变量。
+参阅 build（7）， config（8）,[FreeBSD 用户空间构建手册](https://docs.freebsd.org/en/books/handbook/cutting-edge/#makeworld)和[内核手册](https://docs.freebsd.org/en/books/handbook/kernelconfig/)以获取更多信息，包括设置 make（1） 变量。
 
 有关 FreeBSD 支持的 CPU 架构和平台的信息，请参阅 [FreeBSD
-网站的平台页面]（https://www.freebsd.org/platforms/）。
+网站的平台页面](https://www.freebsd.org/platforms/)。
 
-对于官方的 FreeBSD 可启动映像，请参见 [release page]（https://download.freebsd.org/ftp/releases/ISO-IMAGES/）。
+对于官方的 FreeBSD 可启动映像，请参见[release page](https://download.freebsd.org/ftp/releases/ISO-IMAGES/)。
 
 源码路线图：
 ---------------
@@ -41,4 +39,4 @@ FreeBSD是一个操作系统，用于为现代服务器、桌面和嵌入式平�
 | usr.bin | User commands. |
 | usr.sbin | System administration commands. |
 
-关于将您的源代码树与 FreeBSD 项目的一个或多个开发分支同步的信息， 请参考 [FreeBSD 手册]（https://docs.freebsd.org/en/books/handbook/cutting-edge/#current-stable）。
+关于将您的源代码树与 FreeBSD 项目的一个或多个开发分支同步的信息， 请参考 [FreeBSD 手册](https://docs.freebsd.org/en/books/handbook/cutting-edge/#current-stable)。
